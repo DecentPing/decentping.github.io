@@ -1,0 +1,66 @@
+/* Discord Custom Theme */
+
+/* Body Background */
+body {
+    background-color: #2c2f33 !important;
+}
+
+/* Text Color */
+div, span, p, h1, h2, h3, h4, h5, h6 {
+    color: #ffffff !important;
+}
+
+/* Server List Background */
+div[class^="scroller-"] {
+    background-color: #23272a !important;
+}
+
+/* Channel List Background */
+div[class^="sidebar-"] {
+    background-color: #2c2f33 !important;
+}
+
+/* Channel Text Color */
+div[class^="containerDefault"] {
+    color: #ffffff !important;
+}
+
+/* User Popout Background */
+div[class^="userPopout"] {
+    background-color: #2c2f33 !important;
+}
+
+/* User Popout Text Color */
+div[class^="popout"] {
+    color: #ffffff !important;
+}
+
+/* Chat Background */
+div[class^="chat-"] {
+    background-color: #36393f !important;
+}
+
+/* Chat Text Color */
+div[class^="markup-"] {
+    color: #ffffff !important;
+}
+
+/* Mention Highlight Background */
+div[class^="mention"] {
+    background-color: #7289da !important;
+}
+
+/* Channel Header Background */
+div[class^="header"] {
+    background-color: #2c2f33 !important;
+}
+
+/* Server Member List Background */
+div[class^="members"] {
+    background-color: #2c2f33 !important;
+}
+
+/* Server Member List Text Color */
+div[class^="name-"] {
+    color: #ffffff !important;
+}
