@@ -37,6 +37,7 @@
         section {
             padding: 2em;
             text-align: center;
+            position: relative; /* Set section to relative positioning */
         }
 
         footer {
@@ -44,6 +45,15 @@
             color: #fff;
             padding: 1em 0;
             text-align: center;
+        }
+
+        .logo {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 350px; /* Set width to 350px */
+            height: auto; /* Maintain aspect ratio */
+            z-index: 1;
         }
     </style>
 </head>
@@ -61,6 +71,7 @@
     </nav>
 
     <section>
+        <img src="https://uranium2.com/logo.png" alt="Uranium2 Logo" class="logo">
         <h2>What is Uranium2?</h2>
         <p>Welcome to Uranium2, your ultimate destination for thrilling KitPvP action in the world of Minecraft! With compatibility spanning from version 1.8 to 1.20.1, we ensure that players of all backgrounds and preferences can join in on the excitement.
 
